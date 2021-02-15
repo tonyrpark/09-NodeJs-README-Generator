@@ -1,0 +1,9 @@
+1. Read through directions
+2. Add files to .gitignore
+3. Install NPM dependencies (inquirer)
+4. build var/const
+5. plan out necessary formulas
+6. take it section by section
+7. create gif and video of project
+8. create readme
+9. time permitting, add some css to the finished product
