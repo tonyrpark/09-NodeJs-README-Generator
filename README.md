@@ -1,12 +1,12 @@
-    # **09-NodeJs-README-Generator**
 
-    ![](https://img.shields.io/badge/label-message-red)
-    ![](https://img.shields.io/badge/label-message-blue)
-    ![](https://img.shields.io/badge/label-message-green)
+    
+    # **1**
+
+    2
 
     ## Description
 
-    This file creates a README.md for the user by asking a series of questions via the inquirer.npm package
+    3
 
     ## Table of Contents
 
@@ -21,23 +21,23 @@
 
     ## Installation
 
-    (1) type 'npm init' to create a 'package.json' file (2) type 'npm i inquirer' to install the npm inquirer package (3) run 'node index.js' in the respective folder. ensure that the 'generate.js' and 'index.js' file are present
+    4
 
     ## Usage
 
-    Open Source Usage
+    5
 
     ## License
 
-    none
+    6
 
-    ## Contributors
+    ## Contributors 
 
-    none
+    7
 
     ## Test
 
-    none
+    8
 
     ## Repository Link
 
@@ -49,3 +49,4 @@
     -Tony P
     -https://github.com/tonyrpark
     -null
+    
