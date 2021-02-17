@@ -12,6 +12,12 @@ const questions = [
     name: "title",
     message: "What is your project title?",
   },
+  //Badge
+  {
+    type: "input",
+    name: "badge",
+    message: "Please list any badge links for this project: ",
+  },
   //Description
   {
     type: "input",
@@ -21,37 +27,43 @@ const questions = [
   //Installation Instructions
   {
     type: "input",
-    name: "description",
+    name: "installation",
     message: "Please provide your project's description: ",
   },
   //Usage Information
   {
     type: "input",
-    name: "description",
+    name: "usage",
     message: "Please provide your project's usage: ",
+  },
+  //License Info
+  {
+    type: "input",
+    name: "license",
+    message: "Please provide project (any) license(s): ",
   },
   //Contribution Guidelines
   {
     type: "input",
-    name: "description",
+    name: "contribute",
     message: "Please provide the contributing members of the project: ",
   },
   //Test Instructions
   {
     type: "input",
-    name: "description",
+    name: "test",
     message: "Please provide the project tests: ",
   },
   //Github Username Request
   {
     type: "input",
-    name: "description",
+    name: "username",
     message: "What is your GitHub username? ",
   },
   //Repo Link Request
   {
     type: "input",
-    name: "description",
+    name: "repository",
     message: "What is the link to your GitHub repository? ",
   },
 ];
