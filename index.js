@@ -3,7 +3,7 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const axios = require("axios");
 //generate.js is in separate folder
-const generate = require("./assets/generate");
+const generate = require("./assets/generate.js");
 
 const questions = [
   //Project Title displayed as title of the README
