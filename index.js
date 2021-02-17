@@ -74,3 +74,26 @@ const questions = [
 //   });
 
 //inquirer required code
+inquirer.prompt(questions).then(function (data) {
+  const gitHubUrl = `https://api.github.com/users/${data.username}`;
+
+  axios.get(gitHubUrl).then(function (res) {
+    const gitHubData = {
+      gitHubImage: res.data.avatar_url,
+      email: res.data.email,
+      profile: res.data.html_url,
+      name: res.data.name,
+    };
+
+    fs.writeFile("README.md", generate(data, gitHubData), function (err) {
+      if (err) {
+        throw err;
+      }
+
+      console.log("README.md created successfully!");
+    });
+  });
+});
+
+function init() {}
+init();
