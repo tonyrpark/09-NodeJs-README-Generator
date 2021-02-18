@@ -1,12 +1,12 @@
 
     
-    # **1**
+    # **READme Generator**
 
-    2
+    ![](https://img.shields.io/badge/label-message-red)
 
     ## Description
 
-    3
+    readme generator
 
     ## Table of Contents
 
@@ -21,23 +21,23 @@
 
     ## Installation
 
-    4
+    (1) type 'npm init' to create a 'package.json' file (2) type 'npm i inquirer' to install the npm inquirer package (3) run 'node index.js' in the respective folder. ensure that the 'generate.js' and 'index.js' file are present
 
     ## Usage
 
-    5
+    Open
 
     ## License
 
-    6
+    Mozilla Public License 2.0
 
     ## Contributors 
 
-    7
+    none
 
     ## Test
 
-    8
+    none
 
     ## Repository Link
 
